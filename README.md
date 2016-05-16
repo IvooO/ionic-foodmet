@@ -13,3 +13,4 @@ To get started with this application, clone the project down.  Make sure you hav
 ionic serve # Opens a browser to the application and live-reloads as you work.
 ionic emulate # Opens an emulator for iOS/Android depending on your project settings.
 ```
+# ionic-foodmet
