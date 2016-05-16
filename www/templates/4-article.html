@@ -9,6 +9,12 @@
         <img ng-src="{{ image._links.self.href }}" />
       </div>
       <div class="item item-body" ng-bind-html="article.body[0].value"></div>
+      
     </div>
+    </div>
+ {{article.title[0].value}}
+
+<a ng-href="{{article.field_link[0].uri}}">ga naar recept</a>
   </ion-content>
+      
 </ion-view>

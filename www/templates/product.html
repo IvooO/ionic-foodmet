@@ -1,0 +1,29 @@
+
+<ion-view>
+  <ion-nav-title>
+    {{product.title[0].value}}
+  </ion-nav-title>
+  <ion-content>
+
+
+<div class="list card">
+
+  <div class="item item-avatar">
+ <img ng-src="{{ image._links.self.href }}" />
+
+    <h2>  {{product.title[0].value}}</h2>
+    <p>November 05, 1955</p>
+  </div>
+  
+  <div class="item item-image">
+  <img class="full-image" ng-src="{{ image._links.self.href }}">
+   <div class="item item-body" ng-bind-html="product.body[0].value">       </div>
+
+</div>
+
+  
+
+  </ion-content>
+      
+</ion-view>
+

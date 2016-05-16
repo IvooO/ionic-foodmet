@@ -3,13 +3,29 @@
   <!-- Angular directive that wraps the "main content" of the screen-->
 
   <ion-content class="app-bg">
+   <div class="padding logo">
+   
+        <h1>Borough Market</h1>
+        <h3>This week's top offers</h3>
+     </div>
     <!-- logo variable is replaced based on what we set in the controller. -->
-    <img src="{{logo}}" class="full-image" />
+  <!--  <img src="{{logo}}" class="full-image" /> -->
 
     <div class="padding text-center">
       <!-- Normal link to the categories page.-->
       <!-- Hash links are handled by angular -->
       <a class="button button-positive button-block" href="#/categories">Categories</a>
+      <br>
+      <br>
+        <a class="button button-positive button-block" href="#/products">Top Offers</a>
+          <br>
+        <a class="button button-positive button-block" href="#/discover">Discover</a>
+          <br>
+        <a class="button button-positive button-block" href="#/favorites">Favorites</a>
+
+
+
+
     </div>
   </ion-content>
 </ion-view>
