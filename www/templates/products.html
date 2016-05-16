@@ -6,21 +6,10 @@
   <ion-content>
     <!-- HTML structure provided by ionic-->
     <div class="list">
-
-     
     <div class="item item-avatar" href="#/products/{{product.nid[0].value}}"
          ng-repeat="product in products">
-                
          <img ng-src="{{ image._links.self.href }}" />
-     
-
-     
-    
-
-
-
     {{product.title[0].value}}
-      
       </a>
     </div>
   </ion-content>
